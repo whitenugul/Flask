@@ -1,0 +1,28 @@
+FastAPI
+- 비교적 최근에 등장한 Web Framework
+- Python 3.6 부터 지원
+- Type Annotation 방식
+- 풍부한 자유도
+- 자동 스웨거(Swagger) 지원
+    -> 포스트맨을 안써도 볼 수 있다.
+- 큰 커뮤니티가 있지만 아직은 작은 생태계이다.
+
+설치 방법
+pip install fastapi
+
+- Framework와 Library의 차이
+
+
+Uvicorn
+- ASGI(Asynchronous Server Gateway interface)서버
+- 비동기 처리
+- 멀티스레드 방식보다 더욱 빠른 속도를 보장
+- Swagger와 같은 API 문서 자동화 기능을 제공
+- APi 개발 시 생산성을 높일 수 있다.
+
+설치 방법
+pip install "uvicorn[standard]"
+
+uvicorn (파일명):app --reload
+
+http://127.0.0.1:8000/docs
